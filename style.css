@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Fira+Sans&family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Roboto+Condensed&family=Source+Code+Pro:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0%;
+}
+*::selection{
+    background:var(--yellow);
+    color:#efca13;
+}
+
+
+.sidebar{
+   
+    background-color: rgb(73, 73, 73);
+    /* width: 184px; */
+    font-family: 'Fira Sans', sans-serif;
+    font-weight:600;
+    padding-top: 10px;
+    padding-left: 20px;
+    /* position:fixed; */
+}
+.sidebar nav{
+    height: 100vh;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 16px;
+    padding: 33px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 22px;
+} 
+.sidebar nav li a:hover{
+    text-decoration: none;
+    color: #efca13;
+    font-size: 22px;
+} 
+.main{
+    background-color: rgb(26, 26, 26);
+    color: white;
+    width: 90vw;
+    
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+
+    /* background-color: rgb(247, 51, 143); */
+    height: 58vh;
+    width: 80vw;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devPic img{ 
+   height: 28vh;
+   border-radius: 50%;
+   border: 3px solid #efca13;
+   margin-top: 40px;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+    padding: 30px ;
+}
+.hello{
+    font-size: 65px;
+
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+}
+.about{
+    font-size: 30px;
+}
+.moreAbout{
+    font-size: 22px;
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 23px;
+}
+.buttons{
+    margin-top: 34px;
+}
+.buttons button{
+    padding: 11px;
+    border-radius: 20px;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 3px;
+    cursor: pointer;
+
+}
+.buttons button:hover{
+    background-color: black;
+    color: yellow;
+    border-color:white ;
+}
+.heading{
+    padding-left: 40%;
+    padding-top: 10px;
+    border-bottom:solid ;
+    font-size: 40px;
+}
+.box{
+    width: 60%;
+    padding: 10px;
+    color: #efca13;
+    background-color: rgb(73, 73, 73);
+    font-family: 'Source Code Pro', monospace;
+    
+}
+.box::selection{
+    background:var(--yellow);
+    color:white;
+}
+.form{
+    margin-left: 250px;
+    padding-top: 20px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+}
+.btn{
+   
+    margin-left: 24%;
+    font-size: 30px;
+    width: 126px;
+    border-radius: 17px;
+    margin-bottom: 20px;
+}
+.btn:hover{
+    background-color: rgb(26, 26, 26);
+    color: white;
+    border-color: #efca13 ;
+    color: #efca13;
+    
+}
+
+.pics{
+    display: flex;
+    
+}
+.gmail{
+    max-height: 150px;
+max-width: 200px;
+width: 120px;
+height: 120px;
+padding: 20px;
+}
+.insta{
+    max-height: 150px;
+max-width: 200px;
+width: 120px;
+height: 120px;
+}
+.git{
+    max-height: 150px;
+max-width: 200px;
+width: 120px;
+height: 120px;
+}
+.linkedin{
+    max-height: 150px;
+max-width: 200px;
+width: 120px;
+height: 120px;
+}
+.abt-head{
+    margin-top: 5px;
+    font-size: 30px;
+    margin-left: 37%;
+    /* border-bottom: solid; */
+    color: white;
+}
+.info{
+    margin-top: 20px;
+    margin-left: 35%;
+    font-size: 20px;
+}
+.info-head{
+    padding: 10px;
+}
+.clg{
+    margin-top: 20px;
+    margin-left: 35%;
+    font-size: 35px;
+}
+.scl{
+    margin-top: 20px;
+    margin-left: 45%;
+    font-size: 35px;
+}
+.para{
+    margin: 7px;
+    padding: 20px;
+    font-size: 20px;
+}
+.heading1{
+    padding-left: 36%;
+    padding-top: 10px;
+    border-bottom:solid ;
+    font-size: 27px;
+}
+.heading2{
+    margin-top: 40px;
+    padding-left: 36%;
+    padding-top: 10px;
+    border-bottom:solid ;
+    font-size: 40px;
+}
+.heading3{
+    margin-top: 40px;
+    padding-left: 39%;
+    padding-top: 10px;
+    border-bottom:solid ;
+    font-size: 40px;
+}
+.yr{
+    margin-left: 45%;
+    font-size: 22px;
+    font-weight: bold;
+}
+.skills{
+    margin-top: 20px;
+    margin-left: 43%;
+    margin-bottom: 20px;
+    font-size: 25px;
+
+}
