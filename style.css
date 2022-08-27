@@ -16,17 +16,18 @@
     /* width: 184px; */
     font-family: 'Fira Sans', sans-serif;
     font-weight:600;
-    padding-top: 10px;
+    padding-top: 80px;
     padding-left: 20px;
     /* position:fixed; */
 }
-.sidebar nav{
+/* .sidebar nav{
     height: 100vh;
-}
+} */
 .sidebar nav li{
     list-style: none;
     font-size: 16px;
     padding: 33px;
+    padding-top: 80px;
 }
 .sidebar nav li a{
     text-decoration: none;
@@ -44,6 +45,16 @@
     width: 90vw;
     
 }
+#about{
+     background-color: rgb(26, 26, 26);
+    color: white;
+    width: 90vw;
+}
+#Contact{
+     background-color: rgb(26, 26, 26);
+    color: white;
+    width: 90vw;
+}
 .container{
     display: flex;
 }
@@ -51,7 +62,7 @@
 
     /* background-color: rgb(247, 51, 143); */
     height: 58vh;
-    width: 80vw;
+    width: 100%;
     margin: 100px auto;
     display: flex;
     justify-content: space-around;
@@ -149,31 +160,8 @@
     display: flex;
     
 }
-.gmail{
-    max-height: 150px;
-max-width: 200px;
-width: 120px;
-height: 120px;
-padding: 20px;
-}
-.insta{
-    max-height: 150px;
-max-width: 200px;
-width: 120px;
-height: 120px;
-}
-.git{
-    max-height: 150px;
-max-width: 200px;
-width: 120px;
-height: 120px;
-}
-.linkedin{
-    max-height: 150px;
-max-width: 200px;
-width: 120px;
-height: 120px;
-}
+
+
 .abt-head{
     margin-top: 5px;
     font-size: 30px;
@@ -235,4 +223,11 @@ height: 120px;
     margin-bottom: 20px;
     font-size: 25px;
 
+}
+#footer{
+    height:20px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+  
 }
